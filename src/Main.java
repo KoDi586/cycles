@@ -1,14 +1,16 @@
 
 public class Main {
     public static void main(String[] args) {
-//        task1();
-//        task2();
-//        task3();
-//        task4();
-//        task5();
-//        task6();
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+        task6();
         task7();
-//        task8();
+        task8();
+        task9();
+        task10();
 
     }
     public static void task1() {
@@ -92,6 +94,48 @@ public class Main {
 
     }
 
+    public static void task8() {
+        System.out.println("\n\n" +
+                "=============================\n" +
+                "========= Задание 8 =========\n" +
+                "=============================\n");
+
+        int salary = 29_000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + salary;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей!");
+        }
+    }
+
+    public static void task9() {
+        System.out.println("\n\n" +
+                "=============================\n" +
+                "========= Задание 9 =========\n" +
+                "=============================\n");
+
+        int salary = 29_000;
+        float total = 0f;
+        for (int i = 1; i <= 12; i++) {
+            total += total / 100f;
+            total = total + salary;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей!");
+        }
+
+    }
+
+    public static void task10() {
+        System.out.println("\n\n" +
+                "=============================\n" +
+                "========= Задание 10 =========\n" +
+                "=============================\n");
+
+        for (int i = 1; i <= 10; i++) {
+            int answer = 2 * i;
+            System.out.println("2*" + i + "=" + answer);
+        }
+
+    }
 
 }
 
